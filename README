@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4568
+
+
+This plugin adds syntax highlighting, code snippets (using snipMate (https://github.com/msanders/snipmate.vim)) based on https://github.com/github/gitignore snippets and supporing of tComment for `.gitignore` files in Vim.
+
+Requirements
+------------
+* For using code snippets your must install snipMate (https://github.com/msanders/snipmate.vim)
+* For commenting/uncommenting install tComment (https://github.com/tomtom/tcomment_vim)
+
+Usage
+-----
+
+### Snippets
+
+Gitignore.vim contains an usual snipMate snippets. You can use it by opening your `.gitignore` file, typing snippet name (for example, `Python`) and pressing `<Tab>` key.
+
+### Commenting
+
+For commenting you can use standard tComment `<C-_>` keymap.
